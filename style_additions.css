@@ -1,0 +1,224 @@
+/* ==================== ADDITIONAL STYLES ==================== */
+
+/* Search Box with Icon */
+.search-box {
+    position: relative;
+}
+
+.search-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.search-box input {
+    padding-left: 45px !important;
+}
+
+/* Notification Button */
+.notification-btn {
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: var(--dark-color);
+    padding: 10px;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.notification-btn:hover {
+    background: rgba(74, 111, 165, 0.1);
+}
+
+.notification-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: var(--danger-color);
+    color: white;
+    font-size: 0.7rem;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+/* Notification Dropdown */
+.notification-dropdown {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 350px;
+    max-height: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.notification-dropdown.active {
+    display: block;
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.notification-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification-header h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--dark-color);
+}
+
+.mark-all-read {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 0.85rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+
+.mark-all-read:hover {
+    background: rgba(74, 111, 165, 0.1);
+}
+
+.notification-list {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.notification-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.notification-item:hover {
+    background: #f8f9fa;
+}
+
+.notification-item.unread {
+    background: rgba(74, 111, 165, 0.05);
+}
+
+.notification-item i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(74, 111, 165, 0.1);
+    border-radius: 50%;
+}
+
+.notification-content {
+    flex: 1;
+}
+
+.notification-content p {
+    margin: 0 0 5px 0;
+    font-size: 0.9rem;
+    color: var(--dark-color);
+}
+
+.notification-time {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.notification-footer {
+    padding: 12px 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.view-all {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
+
+/* User Avatar with Icon */
+.user-avatar i {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+/* Menu Toggle Icon */
+.menu-toggle i {
+    font-size: 1.3rem;
+}
+
+/* Button Icons */
+.btn i {
+    margin-right: 5px;
+}
+
+/* Success Message */
+.success-message {
+    background: rgba(40, 167, 69, 0.1);
+    color: var(--success-color);
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border-left: 3px solid var(--success-color);
+    font-weight: 500;
+}
+
+/* Form Labels with Icons */
+.form-group label i {
+    margin-right: 8px;
+    color: var(--primary-color);
+}
+
+/* Login Logo Icon */
+.login-logo i {
+    margin-bottom: 15px;
+}
+
+/* Responsive Notifications */
+@media (max-width: 768px) {
+    .notification-dropdown {
+        right: 10px;
+        left: 10px;
+        width: auto;
+    }
+}

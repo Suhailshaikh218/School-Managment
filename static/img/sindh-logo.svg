@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360">
+  <!-- Star at top -->
+  <polygon points="150,8 158,32 184,32 163,48 171,72 150,56 129,72 137,48 116,32 142,32" 
+           fill="none" stroke="#1a7a3c" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Number inside star -->
+  <text x="150" y="46" text-anchor="middle" font-size="10" fill="#1a7a3c" font-family="serif">٦٨٦</text>
+
+  <!-- Crescent moon shape (outer arc) -->
+  <path d="M 60,200 Q 30,280 80,330 Q 120,360 150,362 Q 180,360 220,330 Q 270,280 240,200" 
+        fill="none" stroke="#1a7a3c" stroke-width="4"/>
+  <!-- Inner crescent arc -->
+  <path d="M 75,200 Q 50,270 95,315 Q 128,348 150,350 Q 172,348 205,315 Q 250,270 225,200" 
+        fill="none" stroke="#1a7a3c" stroke-width="2.5"/>
+
+  <!-- Left wheat/laurel branch -->
+  <path d="M 60,200 Q 30,170 38,130 Q 44,100 62,88" fill="none" stroke="#1a7a3c" stroke-width="3"/>
+  <!-- Left branch leaves -->
+  <ellipse cx="42" cy="168" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-30,42,168)"/>
+  <ellipse cx="36" cy="148" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-40,36,148)"/>
+  <ellipse cx="34" cy="128" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-50,34,128)"/>
+  <ellipse cx="38" cy="108" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-55,38,108)"/>
+  <ellipse cx="48" cy="92" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-60,48,92)"/>
+  <!-- Left branch leaves (other side) -->
+  <ellipse cx="56" cy="172" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(10,56,172)"/>
+  <ellipse cx="52" cy="152" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(5,52,152)"/>
+  <ellipse cx="50" cy="132" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(0,50,132)"/>
+  <ellipse cx="54" cy="112" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-5,54,112)"/>
+  <ellipse cx="62" cy="96" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-10,62,96)"/>
+
+  <!-- Right wheat/laurel branch -->
+  <path d="M 240,200 Q 270,170 262,130 Q 256,100 238,88" fill="none" stroke="#1a7a3c" stroke-width="3"/>
+  <!-- Right branch leaves -->
+  <ellipse cx="258" cy="168" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(30,258,168)"/>
+  <ellipse cx="264" cy="148" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(40,264,148)"/>
+  <ellipse cx="266" cy="128" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(50,266,128)"/>
+  <ellipse cx="262" cy="108" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(55,262,108)"/>
+  <ellipse cx="252" cy="92" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(60,252,92)"/>
+  <!-- Right branch leaves (other side) -->
+  <ellipse cx="244" cy="172" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-10,244,172)"/>
+  <ellipse cx="248" cy="152" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(-5,248,152)"/>
+  <ellipse cx="250" cy="132" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(0,250,132)"/>
+  <ellipse cx="246" cy="112" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(5,246,112)"/>
+  <ellipse cx="238" cy="96" rx="10" ry="6" fill="none" stroke="#1a7a3c" stroke-width="2" transform="rotate(10,238,96)"/>
+
+  <!-- Central shield/emblem circle -->
+  <ellipse cx="150" cy="165" rx="68" ry="80" fill="none" stroke="#1a7a3c" stroke-width="3"/>
+
+  <!-- Water waves inside circle -->
+  <path d="M 90,155 Q 110,148 130,155 Q 150,162 170,155 Q 190,148 210,155" fill="none" stroke="#1a7a3c" stroke-width="2"/>
+  <path d="M 88,170 Q 108,163 128,170 Q 148,177 168,170 Q 188,163 208,170" fill="none" stroke="#1a7a3c" stroke-width="2"/>
+  <path d="M 90,185 Q 110,178 130,185 Q 150,192 170,185 Q 190,178 210,185" fill="none" stroke="#1a7a3c" stroke-width="2"/>
+  <path d="M 94,200 Q 114,193 134,200 Q 154,207 174,200 Q 194,193 206,200" fill="none" stroke="#1a7a3c" stroke-width="2"/>
+
+  <!-- Sugarcane / crops (vertical lines) -->
+  <line x1="130" y1="95" x2="128" y2="215" stroke="#1a7a3c" stroke-width="2.5"/>
+  <line x1="142" y1="88" x2="140" y2="218" stroke="#1a7a3c" stroke-width="2.5"/>
+  <line x1="154" y1="85" x2="152" y2="220" stroke="#1a7a3c" stroke-width="2.5"/>
+  <line x1="166" y1="88" x2="164" y2="218" stroke="#1a7a3c" stroke-width="2.5"/>
+  <line x1="178" y1="95" x2="176" y2="215" stroke="#1a7a3c" stroke-width="2.5"/>
+  <!-- Crop leaves -->
+  <path d="M 130,110 Q 118,105 115,95" fill="none" stroke="#1a7a3c" stroke-width="1.5"/>
+  <path d="M 130,125 Q 142,118 145,108" fill="none" stroke="#1a7a3c" stroke-width="1.5"/>
+  <path d="M 154,100 Q 142,95 140,85" fill="none" stroke="#1a7a3c" stroke-width="1.5"/>
+  <path d="M 154,115 Q 166,108 168,98" fill="none" stroke="#1a7a3c" stroke-width="1.5"/>
+  <path d="M 178,110 Q 190,105 192,95" fill="none" stroke="#1a7a3c" stroke-width="1.5"/>
+
+  <!-- Cotton boll -->
+  <circle cx="120" cy="175" r="12" fill="none" stroke="#1a7a3c" stroke-width="2"/>
+  <path d="M 114,169 Q 120,175 126,169" fill="none" stroke="#1a7a3c" stroke-width="1.5"/>
+  <path d="M 114,181 Q 120,175 126,181" fill="none" stroke="#1a7a3c" stroke-width="1.5"/>
+
+  <!-- Bottom leaf decoration -->
+  <path d="M 120,230 Q 150,218 180,230" fill="none" stroke="#1a7a3c" stroke-width="2.5"/>
+  <ellipse cx="150" cy="240" rx="18" ry="10" fill="none" stroke="#1a7a3c" stroke-width="2"/>
+  <line x1="150" y1="230" x2="150" y2="250" stroke="#1a7a3c" stroke-width="1.5"/>
+
+  <!-- Urdu text: حکومت سندھ -->
+  <text x="150" y="300" text-anchor="middle" font-size="18" fill="#1a7a3c" 
+        font-family="'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif" 
+        direction="rtl">حکومتِ سندھ</text>
+  <text x="150" y="325" text-anchor="middle" font-size="14" fill="#1a7a3c" 
+        font-family="'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif" 
+        direction="rtl">حکومت سندھ</text>
+</svg>
